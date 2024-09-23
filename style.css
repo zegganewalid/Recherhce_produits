@@ -1,25 +1,20 @@
-/* Style de base pour la table */
 table {
     width: 25%;
     margin: 20px 0;
     border-collapse: collapse;
 }
 
-/* Suppression des bordures */
 th, td {
-    padding: 2px; /* Réduit le padding pour rapprocher les colonnes */
+    padding: 2px; 
     text-align: left;
 }
 
-/* Style pour la catégorie (en gras) */
 .category {
     font-weight: bold;
     font-size: 18px;
-    text-align: center; /* Centrer le texte des catégories */
+    text-align: center; 
 }
 
-/* Style pour les noms des produits en rupture de stock (rouge) */
 .out-of-stock {
     color: red;
 }
-
